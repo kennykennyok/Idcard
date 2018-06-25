@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title> ID Card Generation </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <h1> ID Card</h1>
+        <hr>
+        <h3>first Name:</h3>
+        <input type="text" name="firstName" id="firstName">
+        <br>
+         <h3>Last Name:</h3>
+         <input type="text" name="lastName" id="lastName">
+        <br>
+        <h3>Age:</h3>
+        <input type="number" name="Age" id="Age">
+        <br>
+        <h3>phone Number:</h3>
+        <input type="number" name="phoneNumber" id="phone">
+        <br>
+        <h3>Address:</h3>
+        <input type="text" name="address" id="address">
+        <br>
+        <br>
+        <button onclick="generateID()">Click Me!</button>
+
+        <div id="idCard">
+            <div id="firstName"></div>
+            <div id="lastName"></div>
+            <div id="Age"></div>
+            <div id="phoneNumber"></div>
+            <div id="Address"></div>
+            <div><img src="https://cdn2.iconfinder.com/data/icons/transparent-round-icons/512/user.png">
+            </div>
+
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>

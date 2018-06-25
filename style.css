@@ -1,0 +1,21 @@
+#idCard{
+    background: #6074FF;
+    border: 15px double black;
+    border-radius: 30px;
+    width: 500px;
+    height: 200px;
+    margin: 25px;
+    text-align: center;
+
+}
+img{
+    width: 100px;
+    position:static;
+    float: left;
+}
+
+html{
+    background: #6EC0CD;
+    text-align: center;
+
+}
